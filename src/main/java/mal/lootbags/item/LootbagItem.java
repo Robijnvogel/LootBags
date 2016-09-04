@@ -21,7 +21,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
@@ -100,7 +99,7 @@ public class LootbagItem extends Item {//implements IItemVarientDetails{
 			return new ArrayList<String>();
 		
 		String color = "";
-		if(text.startsWith("§"))
+		if(text.startsWith("ï¿½"))
 		{
 			color = text.substring(0, 2);
 			text = text.substring(2);

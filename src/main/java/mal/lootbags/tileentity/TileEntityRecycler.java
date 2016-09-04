@@ -29,7 +29,7 @@ public class TileEntityRecycler extends TileEntity implements IInventory, ISided
 	
 	public TileEntityRecycler()
 	{
-		lootvalue = (int)Math.floor(BagHandler.getBag(LootBags.RECYCLEDID).getBagWeight()*LootBags.TOTALVALUEMULTIPLIER);
+            lootvalue = (int)Math.floor(BagHandler.getBag(LootBags.RECYCLEDID).getBagWeight()*LootBags.TOTALVALUEMULTIPLIER);
 	}
 	
 	@Override
